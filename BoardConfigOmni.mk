@@ -2,8 +2,8 @@
 TARGET_KERNEL_CONFIG := shamu_defconfig
 TARGET_KERNEL_SOURCE := kernel/moto/shamu
 BOARD_KERNEL_IMAGE_NAME := zImage-dtb
-KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
+KERNEL_TOOLCHAIN_PREFIX := arm-linux-gnueabi-
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/gnueabi/arm-linux-gnueabi/bin
 
 # Include additional properties in separate system.prop
 TARGET_SYSTEM_PROP := device/moto/shamu/omni_system.prop
